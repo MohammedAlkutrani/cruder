@@ -1,0 +1,30 @@
+{
+    "name": "alkut/cruder",
+    "description": "A simple crud generator for Laravel Framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cruder" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Al-kutrani",
+            "email": "mohammedalkutrani@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cruder\\CruderProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
